@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xml:space="preserve">
+    <t t-name="standalone_owl.Root">
+        <div class="container mt-5">
+            <!-- <button class="btn btn-primary">Save</button> -->
+            <PrimaryButton class="'btn bg-danger'">Hello</PrimaryButton>
+            <PrimaryButton class="'btn bg-success'" text="'Hello'"/>
+            <PrimaryButton text="'Default Button'"/>
+        </div>
+    </t>
+</template> 

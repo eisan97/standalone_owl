@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+   <record id="standalone_action" model="ir.actions.act_url">
+        <field name="name">standalone_owl</field>
+        <field name="url">/standalone_owl</field>
+    </record>
+    <!-- This Menu Item will appear in the Upper bar, That's why It needs NO parent or action -->
+    <menuitem id="standalone_owl_root" name="Standalone OWL">
+        <!-- This Menu Item must have a parent and an action -->
+        <menuitem id="standalone_owl_category" name="Standalone OWL" action="standalone_owl.standalone_action" sequence="0"/>
+    </menuitem>
+
+</odoo>

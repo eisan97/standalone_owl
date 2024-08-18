@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xml:space="preserve">
+    <t t-name="standalone_owl.PrimaryButton">
+        <div class="container">
+            <button t-att-class="props.class">
+                <t t-slot="default">
+                    <t t-esc="props.text"/>
+                </t>
+            </button>
+        </div>
+    </t>
+</template> 

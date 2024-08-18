@@ -1,5 +1,0 @@
-<template xml:space="preserve">
-    <t t-name="standalone_owl.Root">
-        Hello, World!
-    </t>
-</template>
