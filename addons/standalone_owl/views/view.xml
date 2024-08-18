@@ -12,8 +12,8 @@
                 </script>
                 <t t-call-assets="standalone_owl.assets_standalone_app" />
             </head>
-            <body>
-            </body>
+            <body/>
+            <!-- </body> -->
         </html>
     </template>
 </odoo>

@@ -3,7 +3,6 @@
     'author':'Thin Ei San',
     'depends':['base','web'],
     'data':[
-        
         'views/view.xml',
         'views/menu.xml',
     ],

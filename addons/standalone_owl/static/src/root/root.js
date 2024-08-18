@@ -1,3 +1,5 @@
+/** @odoo-module */
+
 import {Component} from "@odoo/owl";
 import {PrimaryButton} from "../buttons/primary_button/primary_button";
 
